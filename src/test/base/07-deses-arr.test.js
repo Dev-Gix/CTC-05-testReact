@@ -1,6 +1,6 @@
 import {retornaArreglo} from '../../base/07-deses-arr.js'
 
-describe('Prueba en 07-deses-arr.js',()=>{
+describe('Pruebas en 07-deses-arr.js',()=>{
 
     test('Debe de retornar un string y un numero',()=>{
         const [texto,numero] = retornaArreglo();
@@ -18,7 +18,7 @@ describe('Prueba en 07-deses-arr.js',()=>{
         expect(arreglo).toEqual(['ABC', 123]);
     })
     
-   
+    
 })
 
 
