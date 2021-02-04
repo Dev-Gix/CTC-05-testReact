@@ -33,8 +33,8 @@ describe('Prueba 08-imp-exp.test.js',()=>{
 
         const arrHeroData = heroes.filter(h => h.owner === owner);
 
-        console.log(arrHeroData)
-        /expect(arrHero).toEqual(arrHeroData);
+        
+        expect(arrHero).toEqual(arrHeroData);
     })
 
     test('Retorna un arreglo con los héroes de Marvel ', () => {
