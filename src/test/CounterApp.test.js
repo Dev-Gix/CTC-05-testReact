@@ -1,6 +1,6 @@
 import React from 'react'
 import {shallow} from 'enzyme';
-import CounterApp from './CounterApp';
+import CounterApp from '../CounterApp';
 
 describe('Prueba de CounterApp',()=>{
   let  wrapper ;

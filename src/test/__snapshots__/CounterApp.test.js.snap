@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba de CounterApp Debe de mostrar el valor por defecto de 100  1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    10
+  </h2>
+  <div
+    className="botones"
+  >
+    <button
+      className="btn-incrementar"
+      onClick={[Function]}
+    >
+      +1
+    </button>
+    <button
+      className="btn-Reiniciar"
+      onClick={[Function]}
+    >
+      Reiniciar
+    </button>
+    <button
+      className="btn-decrementar"
+      onClick={[Function]}
+    >
+      -1
+    </button>
+  </div>
+</Fragment>
+`;
+
+exports[`Prueba de CounterApp Match con snapshot  1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    10
+  </h2>
+  <div
+    className="botones"
+  >
+    <button
+      className="btn-incrementar"
+      onClick={[Function]}
+    >
+      +1
+    </button>
+    <button
+      className="btn-Reiniciar"
+      onClick={[Function]}
+    >
+      Reiniciar
+    </button>
+    <button
+      className="btn-decrementar"
+      onClick={[Function]}
+    >
+      -1
+    </button>
+  </div>
+</Fragment>
+`;
