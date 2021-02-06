@@ -6,23 +6,11 @@ const CounterApp = ({value = 10})=>{
 
     const [counter,setCounter] = useState(value);
 
-    const handleadd = (e)=>{
+    const handleadd = ()=>{setCounter(counter + 1)};
 
-        const btnIncrementar= e.target.classList.contains("btn-incrementar");
-        const btnDecrementar = e.target.classList.contains("btn-decrementar");
-        const btnReiniciar = e.target.classList.contains("btn-Reiniciar");
-        
-        if(btnIncrementar){
-            setCounter(counter + 1);
-            return;
-        }else if(btnDecrementar){
-            setCounter(counter - 1);
-            return;
-        }else if(btnReiniciar){
-            setCounter(value);
-            return;
-        }
-    }
+    const handleaddReset = ()=>{setCounter(value)};
+
+    const handleSubstract = ()=>{setCounter(counter - 1)};
 
     return (
     <>
@@ -30,8 +18,8 @@ const CounterApp = ({value = 10})=>{
     <h2>{counter}</h2>
     <div className="botones">
     <button className="btn-incrementar" onClick={handleadd}>+1</button>
-    <button className="btn-Reiniciar" onClick={handleadd}>Reiniciar</button>
-    <button className="btn-decrementar" onClick={handleadd}>-1</button>
+    <button className="btn-Reiniciar" onClick={handleaddReset}>Reiniciar</button>
+    <button className="btn-decrementar" onClick={handleSubstract}>-1</button>
     </div>
     </>
     );
